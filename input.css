@@ -1,0 +1,10 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+@layer components {
+    .status {
+      @apply hover:text-lightRed text-darkGrayishGrey active:text-veryDarkGrayishGrey cursor-pointer ;
+    }
+  }
