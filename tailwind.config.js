@@ -2,7 +2,9 @@
 module.exports = {
   content: ["./index.html","./src/**/*.{html,js}"],
   theme: {
-    extend: {
+    extend: {boxShadow: {
+      '3xl': '0 35px 60px -15px rgba(0, 0, 0, 0.7)',
+    },
       colors: {
       'softV': 'hsl(273, 75%, 66%)',
       'softB': 'hsl(240, 73%, 65%)',
